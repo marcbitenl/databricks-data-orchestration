@@ -1,5 +1,9 @@
 # 🌍 **Earthquake Data Pipeline - Databricks & Azure Data Lake** ⚡
 
+![image](https://github.com/user-attachments/assets/a789ba09-abdb-44c6-9421-90c90ec709f8)
+
+
+
 ## 📌 Visão Geral
 
 Este repositório contém uma **pipeline de dados distribuída e escalável** construída no **Azure Databricks**, projetada para coletar, transformar e organizar dados sísmicos da **USGS Earthquake API**.
