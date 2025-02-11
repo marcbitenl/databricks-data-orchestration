@@ -6,7 +6,7 @@ Este repositório contém uma **pipeline de dados distribuída e escalável** co
 
 A solução segue o modelo **Medallion Architecture** (**Bronze, Silver e Gold**), permitindo ingestão eficiente, tratamento de dados e armazenamento estruturado para análise avançada.
 
-O pipeline é **totalmente orquestrado dentro do Databricks**, sem necessidade de ferramentas externas como Data Factory ou Synapse Analytics.
+O pipeline é **totalmente orquestrado dentro do Databricks**, sem necessidade de ferramentas externas como **Data Factory** ou **Synapse Analytics**.
 
 ---
 
