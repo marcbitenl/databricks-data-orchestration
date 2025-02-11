@@ -1,7 +1,6 @@
 # 🌍 **Earthquake Data Pipeline - Databricks & Azure Data Lake** ⚡
 
-![image](https://github.com/user-attachments/assets/a789ba09-abdb-44c6-9421-90c90ec709f8)
-
+<img width="962" alt="image" src="https://github.com/user-attachments/assets/3572d185-d1aa-4304-92c1-900c22ad9908" />
 
 
 ## 📌 Visão Geral
@@ -22,7 +21,7 @@ A execução do fluxo de dados é gerenciada por um **workflow no Databricks**, 
 
 Esta pipeline adota uma **abordagem moderna baseada inteiramente no Databricks**, dispensando ferramentas externas como **Azure Data Factory e Synapse Analytics**. Essa estratégia se alinha com a tendência atual do mercado, onde muitas empresas estão migrando para um modelo **Lakehouse**.
 
-✅ **Governança centralizada** → Uso do **Unity Catalog** e **IAM** para controle seguro dos dados.  
+✅ **Governança centralizada** → Uso de **IAM e External Locations** para controle seguro dos dados.  
 ✅ **Menos dependências** → Tudo é gerenciado dentro do **Databricks**, reduzindo a necessidade de integrações externas.  
 ✅ **Melhor performance** → A utilização do **Delta Lake e Parquet** garante **baixo custo e alta eficiência**.  
 ✅ **Flexibilidade** → Permite **ajustes rápidos** e mais controle sobre a orquestração sem precisar de pipelines separados no ADF.  
@@ -39,7 +38,7 @@ Esta pipeline adota uma **abordagem moderna baseada inteiramente no Databricks**
 
 ### 🔹 **Controle de Acesso via IAM**
 
-- O acesso ao **Unity Catalog** foi configurado via **IAM (Identity and Access Management)** no Azure.
+- O acesso ao **Azure Data Lake** foi configurado via **IAM (Identity and Access Management)** no Azure.
 - A identidade gerenciada `unity-catalog-access-connector` foi adicionada como **Colaboradora de Dados do Storage Blob**, garantindo que os notebooks e workflows no Databricks possam acessar os containers do Data Lake de forma segura.
 - Esse método reduz a necessidade de armazenar credenciais dentro do código e melhora a governança dos dados.
 
@@ -111,8 +110,7 @@ Esta pipeline adota uma **abordagem moderna baseada inteiramente no Databricks**
 ✔️ **Escalabilidade** → Capacidade de processar grandes volumes de dados sísmicos.  
 ✔️ **Eficiência e Organização** → Dados estruturados em camadas para fácil consumo.  
 ✔️ **Alto Desempenho** → Uso otimizado do Apache Spark para processamento distribuído.  
-✔️ **Segurança Aprimorada** → Uso de IAM e Unity Catalog para controle de acesso seguro.  
-✔️ **Adoção Moderna** → Estrutura alinhada com o modelo **Lakehouse**, evitando dependências externas desnecessárias.
+✔️ **Segurança Aprimorada** → Uso de IAM e External Locations para controle de acesso seguro.
 
 ---
 
@@ -121,6 +119,4 @@ Esta pipeline adota uma **abordagem moderna baseada inteiramente no Databricks**
 Sinta-se à vontade para sugerir melhorias, abrir issues ou contribuir para otimizar a pipeline!
 
 📩 Para dúvidas ou sugestões, entre em contato.
-
-🔗 **Explore o código e implemente sua própria solução!** 🚀
 
