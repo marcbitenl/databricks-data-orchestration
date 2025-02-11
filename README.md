@@ -1,4 +1,4 @@
-# 🌍 **Earthquake Data Pipeline - Databricks & Azure Data Lake** ⚡
+# **Earthquake Data Pipeline - Databricks & Azure Data Lake** 
 
 ## 📌 Visão Geral
 
